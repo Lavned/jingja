@@ -60,11 +60,8 @@ public class LoginActivity extends BaseTopActivity {
     String type = "1";
     Boolean isClick = false;
     int count  = 5;
-//    private TextView IM_login;
 
     String serviceUrl ="";
-
-//    private int testType = 0;
 
     private static final int MY_PERMISSIONS_REQUEST_CALL_PHONE = 1;
     @Override
