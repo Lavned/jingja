@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/layout_top"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-11-01"
+            android:paddingTop="10dp"
+            android:drawableLeft="@mipmap/choosedata"
+            android:drawablePadding="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:textColor="#808080"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:background="@drawable/search_back"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/jy2"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#bfbfbf"/>
+
+    <ImageView
+        android:id="@+id/history_datanull"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/datanull"
+        android:visibility="gone"
+        android:layout_gravity="center|center_vertical"
+        />
+
+    <ListView
+        android:id="@+id/lv_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#F2F2F2"
+        android:dividerHeight="15dp">
+    </ListView>
+
+</LinearLayout>
