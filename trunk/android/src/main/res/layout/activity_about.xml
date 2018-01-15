@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/layout_top" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/include2"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/logo_text"
+            android:layout_margin="40dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上海今佑科技有限公司"
+            android:textSize="20sp"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/jy2"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_centerHorizontal="true"
+            android:text="      今优农场是安徽美人鱼电子商务有限公司开发的一款集“互联网联合养殖+电商销售+助力精准扶贫”为一体的综合性服务平台。
+        \n      我们致力于打造一个农村电子商务的专业性平台，在这个平台上，我们通过联养的方式，轻松快乐的享受做农场主的乐趣，及安全稳定的收益。同时实物联养促进农业种植（养殖）业的发展，并能通过电商销售大幅度提升销量，反哺贫困地区，实现助力精准扶贫。"
+            android:textSize="15sp"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textColor="@color/jy2"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#9c9c9c"
+                android:layout_marginBottom="5dp"
+                android:text="Copyright@2017\n
+http://www.mryfp.com"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
