@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#EDEDED"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ef6045">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:text="支付结果"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_height="280dp">
+        <ImageView
+            android:id="@+id/pay_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/paysuccess"/>
+        <TextView
+            android:id="@+id/pay_result"
+            android:layout_toRightOf="@id/pay_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_centerInParent="true"
+            android:text="支付成功"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/pay_confim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="确认"
+        android:textColor="#fff"
+        android:background="#ef6045"
+        android:padding="8dp"/>
+
+</LinearLayout>
