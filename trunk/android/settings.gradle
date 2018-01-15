@@ -1,4 +1,0 @@
-include ':library', ':PurchasingApp', ':JYCashier'
-project(':library').projectDir = new File('library')
-project(':PurchasingApp').projectDir = new File('PurchasingApp')
-project(':JYCashier').projectDir = new File('JYCashier')
