@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
 
-
 android {
     compileSdkVersion 26
     defaultConfig {
@@ -44,9 +43,10 @@ dependencies {
     implementation files('libs/org.apache.http.legacy.jar')
     implementation files('libs/jcore-android-1.1.7.jar')
     implementation files('libs/jpush-android-3.0.9.jar')
+//
     implementation project(':library')
     compile project(path: ':library')
+
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'io.reactivex.rxjava2:rxjava:2.0.1'
-    implementation project(':library')
 }

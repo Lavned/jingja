@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\jyProject\\PurchasingApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "E:\\jyProject\\JYPurchsingProject\\PurchasingApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
-                    "source": "E:\\jyProject\\library\\build\\intermediates\\bundles\\debug\\res\\values-fi\\values-fi.xml",
+                    "source": "E:\\jyProject\\JYPurchsingProject\\library\\build\\intermediates\\bundles\\debug\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

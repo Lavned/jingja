@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\jyProject\\PurchasingApp\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "E:\\jyProject\\JYPurchsingProject\\PurchasingApp\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\vigij\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\ffa0a85600f6aca7fc8873b211f332ec\\res\\values-en-rIN\\values-en-rIN.xml",

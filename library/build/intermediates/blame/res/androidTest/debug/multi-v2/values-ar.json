@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\jyProject\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ar\\values-ar.xml",
+            "outputFile": "E:\\jyProject\\JYPurchsingProject\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
                 {
-                    "source": "E:\\jyProject\\library\\build\\intermediates\\bundles\\debug\\res\\values-ar\\values-ar.xml",
+                    "source": "E:\\jyProject\\JYPurchsingProject\\library\\build\\intermediates\\bundles\\debug\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
