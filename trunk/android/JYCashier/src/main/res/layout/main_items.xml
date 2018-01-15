@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="80dp"
+    android:background="#e2b790"
+    android:layout_margin="8dp"
+    android:layout_height="100dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_margin="2dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/main_use_bg"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/main_tvNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:text="10号桌"/>
+    <TextView
+        android:id="@+id/main_tv_PeopleNum"
+        android:layout_below="@+id/main_tvNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        android:text="10人桌"/>
+
+    <ImageView
+        android:id="@+id/main_im_status"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/main_use"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

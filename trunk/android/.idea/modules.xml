@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JYCashier/JYCashier.iml" filepath="$PROJECT_DIR$/JYCashier/JYCashier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PurchasingApp/PurchasingApp.iml" filepath="$PROJECT_DIR$/PurchasingApp/PurchasingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jyProject.iml" filepath="$PROJECT_DIR$/jyProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/librar.iml" filepath="$PROJECT_DIR$/library/librar.iml" />
+    </modules>
+  </component>
+</project>
